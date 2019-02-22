@@ -184,12 +184,14 @@ color: white;
     padding: 54px;
     color: #234a4a;
 }
-.project col-1{}
-.project col-2{}
-.project col-3{}
-.project col-4{}
-.project col-5{}
-.project col-6{}
+.col-1{}
+.col-1 img{
+    max-width: 33.33%;
+    float: right;
+    box-sizing: border-box;
+    padding: 7px;
+}
+.col-1 img :hover{};
 
 
 /*contacts */
