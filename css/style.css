@@ -31,6 +31,8 @@ color: gold;
 font-size: 26px;
     
 font-weight: 100;
+    
+padding: 10px 6px;
 }
 .menu{
     width: 50%;
@@ -52,13 +54,13 @@ list-style-type: none;
 }
 .menu ul li a{
     
-color: black;
+color: white;
     
 text-decoration: none;
     
 font-weight: 500;
     
-padding: 13px 2px;
+padding: 13px 6px;
     
 display: block;
 }
@@ -69,9 +71,7 @@ display: block;
 color: gold;
 }
 /*header*/
-.header1{
-   
-}
+.header1{width: 1200px;margin: auto;background: #234a4a;}
 
 
 /*banner */
@@ -84,6 +84,8 @@ max-width: 50%;
 float: right;
    
 /* margin-top: -136px; */
+   
+border: 5 4 7 44px;
 }
 .hey{
    
@@ -94,12 +96,15 @@ padding: 254px 112px;
 .hey h4{
     color: gold;
     font-weight: 200;
+    font-size: 31px;
 }
 .hey p{
     font-size: 17px;
+    color: aliceblue;
+    font-weight: 100;
 }
 .hey h1{
-    font-size: 46px;
+    font-size: 58px;
     font-weight: 200;
     color: white;
 }
@@ -109,13 +114,15 @@ padding: 254px 112px;
 /*about me*/
 
 .about-me{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 .about-me h2{
     text-align: center;
-    padding: 27px;
+    padding: 18px 17px;
     color: #234a4a;
 }
+.cont-clr{background: 234a4a;background: aliceblue;padding: 53px;}
+
 .about-me p{
     padding: 22px;
 }
@@ -202,6 +209,7 @@ address p{
     font-style: normal;
     font-size: 19px;
     padding: 1px;
+    font color: inherit;
 }
 .contact h1{
     font-size: 31px;
@@ -212,12 +220,25 @@ address p{
     padding: 25px 0px;
     /* float: none; */
 }
-.contact-image img{max-width: 50%;float: right;margin-top: -169px;}
+/*.contact-image img{max-width: 50%;float: right;margin-top: -169px;}*/
+.contact-colr{}
+.contact-colr p{
+    color: white;
+    font-weight: 100;
+}
+.contact-colr img{
+    max-width: 50%;
+    float: right;
+    /* margin-bottom: 55px; */
+    margin right: 10px;
+    margin-top: -158px;
+}
 .social-bottom{}
 .social-bottom ul{
     float: right;
-    display: grid;
-    /* background: #234a4a; */
+    display: contents;
+    /* padding: 46px; */
+    font-size: 10px;
 }
 .social_last{
     padding: 17px;
@@ -231,9 +252,13 @@ address p{
     color: white;
     border: 1px solid;
     padding: 11px;
-    display: block;
+    display: contents;
     /* margin-right: 14px; */
     /* float: left; */
     margin-left: 44px;
 }
 .social-bottom i{}
+
+
+/*photo works*/
+.pht_rl{}
